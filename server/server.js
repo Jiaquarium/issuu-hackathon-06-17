@@ -19,12 +19,11 @@ app.get('/', function(req, res) {
 });
 
 app.post('/', function(req, res) {
-    console.log('PARAMS EHRE...', req.body);
-    const fileName = 'custom-cover';
+    const fileName = `${Date.now()}-custom-cover`;
 
     Jimp.read('https://upload.wikimedia.org/wikipedia/commons/e/eb/Blank.jpg', function(err, baseImg) {
-        Jimp.read('https://image.isu.pub/170222230433-2130d4614f32687b188cacfc01ff5a2c/jpg/page_1_thumb_large.jpg', function(err, image1) {
-            Jimp.read('https://image.isu.pub/170222230433-2130d4614f32687b188cacfc01ff5a2c/jpg/page_3_thumb_large.jpg', function(err, image2) {
+        Jimp.read(req.body.pageOneToMerge, function(err, image1) {
+            Jimp.read(req.body.pageTwoToMerge, function(err, image2) {
                 baseImg.resize(640, 414);
                 baseImg.composite(image1, 0, 0);
                 baseImg.composite(image2, 320, 0);
