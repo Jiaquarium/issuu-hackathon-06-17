@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const Jimp = require('jimp');
 
+const uploadToGoogleCloudStorage = require('./google-api/img-upload');
 
 app.use(bodyParser.json());
 
@@ -19,6 +20,7 @@ app.get('/', function(req, res) {
 
 app.post('/', function(req, res) {
     console.log('PARAMS EHRE...', req.body);
+    const fileName = 'custom-cover';
 
     Jimp.read('https://upload.wikimedia.org/wikipedia/commons/e/eb/Blank.jpg', function(err, baseImg) {
         Jimp.read('https://image.isu.pub/170222230433-2130d4614f32687b188cacfc01ff5a2c/jpg/page_1_thumb_large.jpg', function(err, image1) {
@@ -27,14 +29,14 @@ app.post('/', function(req, res) {
                 baseImg.composite(image1, 0, 0);
                 baseImg.composite(image2, 320, 0);
 
-                const file = "composited-cover." + baseImg.getExtension();
+                const file = `${fileName}.` + baseImg.getExtension();
                 baseImg.write(file);
-            })
+
+                uploadToGoogleCloudStorage(fileName, url => res.send({ content: url }));
+            });
         });
     });
 
-
-    res.send({ content: 'hello world' })
 });
 
 module.exports = app;

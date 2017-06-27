@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "issuu-hackathon-06-17",
+  "private_key_id": "9c7c6c4428840d61a4be5f536f259d2726df24b3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/R9e9AicDG87D\nCmjDatvrGmK+wbfLx2cloSl83MsSTKzNALbLMZDpfW0Qy1pGlaj+bKtvXqwta6yc\nz9S75DWw4NbHLHe0hdX6AhUYLv+dhZ2nh9QTxtvFYmo3H4o1Gm7LW/UijHiUtsay\nCH3ZPb7iE5zmagwdDyEHIvYyCvFVIToQOYhd3yRLRH7CNGWemN+cqAwTOF3idRaM\n+mJ+v6MPGCIRukzHUlZ9IPf7FGCTma/XeF1nkxLK1m8h9Nwf29EiB4vizHk9kkt/\nEo/+lKqGWk3q8i6rQ6Cr85cw8mpMi30mcGrKsTqBz71G+ju41incuLJh8D9g/zVO\n6DuGf+RJAgMBAAECggEAPvo+8DaItK/PpAzF0G1a6e2+jDLIulm1PsDwoXEqlSRU\nkoyFIqJ3pUCMC8cAOpQk11vdF+ZyRuQYKWsODizFdq6YWGxuHywfdth/rH4w3+Kx\ntQp2C2riSfssoGiMfw5sYx0sOQtJ2iDRi6VbFg8LzXCKrJxGz7x+8dQTfgd3TMD5\nntidtm1YdsN/nSK3wU9A1aTmHqdjG0gTfPMPDNcAUvuk+hbqXLI3SQT1ej5fayon\n4tfgmXlaBcG5jwFWul8N0IxVDuF/3qei/nDkt6rneIxOasGvwxCun0TqTOaOXThM\nAEuOX7e28RYzuJJql6DLkJAs9uz9Ad9WQrTdtxwrRwKBgQDeWKlBIaGbfXXsBqNG\n5fhAiWT8iNd/vhchSSaoP5/jk0n+MSj7DeY51d9nfqQoi+zd6nJVTZ4psV18fmR5\nLZOziPcp6Ea8S3+8qZ5lYFvtc9RcL7IOIKdits60xtdfjAW9NmqTEremCm2rCsig\ne+2k2+Pdlx14SQsu7HA/iE2tuwKBgQDcO3eSAk0BsWkO+qIRv1Md4ZJmRG1K25V3\nrpYrigQn44vX6fEQYX7nsdSFPgpSOEOaBxSGQuB+BhJQDhOARbIUH4T0CU965Uzz\nqrPSb8QQdGA9ftxFkpVviGPuFcnUDgR/mM1qGhpOM/H5eiozgK8VJi7YO1B93otN\nzP1wmcLTywKBgQDce9b6+zqiUfsJnltzBsDyXkyCD8CCsCGHpF5tIQqQRZJuOpmE\nuve+ClOK8Y4flwG/3aia5mkctwEZXsyLTaLVudA/AlKCjeuRTjIAHVmLUf0XnURX\nthHGVbkMktEnslZOlxN/3GO4h0bRAdSJL9ssS9Dd/+f9S5GHana0yZkd2QKBgBBg\n89GODkAT+6Y7iZYcTogoYITujdpFXmZaO5zdVNXKnHngUidPuOpuVUnbhVT8DjsE\nT8h0bNGyjeYaReUCSe4pMfAcSSbwqrpsdZcu7Lv0i7vHFYavEiILWLM6N5pnuHns\n2UoMyuwJ/PL63Oybo2nFPzKhpqjVxjJxDmAzb0PlAoGAWKMBr8mU3JksDzA2KID3\njG/9GwNHA7QFTpYAkqT5JcCHRbkd8Uj34Gg4Z1pJyNpNvEpusrRmm1wQsgMKX024\nTxoWgw+gVK+LqKQdGyt5JCxRs3ctlLpmwhGqGp/i/cC5DaSYB4X65liAhACW3SrL\nzfkKRp5AOD9JUukybiLokMw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "issuu-hackathon@issuu-hackathon-06-17.iam.gserviceaccount.com",
+  "client_id": "104720421493847385906",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/issuu-hackathon%40issuu-hackathon-06-17.iam.gserviceaccount.com"
+}
